@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Friend_Delete"
+    android:background="@drawable/cat5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Please choose a friend you want to delete!"
+        android:textAllCaps="true"
+        android:textColor="@color/vintage"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="50dp"
+       />
+    <Spinner
+        android:id="@+id/spinner_nameOfFriends"
+        android:layout_width="300dp"
+        android:layout_height="37dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        />
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:gravity="center"
+        android:background="@drawable/ripple_effect"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

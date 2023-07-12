@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Friend_Activity"
+    android:background="@drawable/cat4">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"/>
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Add Friends"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/vintage"
+        android:textAllCaps="true"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:hint="Enter Name Of Friends: " />
+
+    <EditText
+        android:id="@+id/editTextHandphone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:hint="Enter Phone Number: " />
+
+    <EditText
+        android:id="@+id/editTextHomeaddress"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:hint="Enter Address: " />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Friend"
+            android:gravity="center"
+            android:background="@drawable/ripple_effect"
+            android:layout_gravity="center"
+            />
+
+</LinearLayout>
